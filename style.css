@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+  }
+  
+  /* Top Bar Styles */
+  .top-bar {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Main Container Styles */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Box Styles */
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Box Hover Effect */
+  .box:hover {
+    background-color: #333333;
+  }
+  
